@@ -17,7 +17,13 @@
 		7C9021AF174A377800E9FBF7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9021AE174A377800E9FBF7 /* Default@2x.png */; };
 		7C9021B1174A377800E9FBF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9021B0174A377800E9FBF7 /* Default-568h@2x.png */; };
 		7C9021B4174A377800E9FBF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9021B2174A377800E9FBF7 /* MainStoryboard.storyboard */; };
-		7C9021B7174A377800E9FBF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9021B6174A377800E9FBF7 /* ViewController.m */; };
+		7C9021C9174A3CFF00E9FBF7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9021C8174A3CFF00E9FBF7 /* QuartzCore.framework */; };
+		7C9021CC174A426300E9FBF7 /* sliderThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9021BE174A39AB00E9FBF7 /* sliderThumb@2x.png */; };
+		7C9021CD174A426300E9FBF7 /* sliderTrack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9021BF174A39AB00E9FBF7 /* sliderTrack@2x.png */; };
+		7C9021CF174A4ABA00E9FBF7 /* sliderMaxMin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9021CE174A4ABA00E9FBF7 /* sliderMaxMin@2x.png */; };
+		7C9021D3174A4BE700E9FBF7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9021D2174A4BE700E9FBF7 /* FirstViewController.m */; };
+		7C9021D6174A4BED00E9FBF7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9021D5174A4BED00E9FBF7 /* SecondViewController.m */; };
+		7C9021D9174A4C7300E9FBF7 /* SlideToUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9021D8174A4C7300E9FBF7 /* SlideToUnlockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +41,16 @@
 		7C9021AE174A377800E9FBF7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7C9021B0174A377800E9FBF7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7C9021B3174A377800E9FBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7C9021B5174A377800E9FBF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C9021B6174A377800E9FBF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C9021BE174A39AB00E9FBF7 /* sliderThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderThumb@2x.png"; sourceTree = "<group>"; };
+		7C9021BF174A39AB00E9FBF7 /* sliderTrack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderTrack@2x.png"; sourceTree = "<group>"; };
+		7C9021C8174A3CFF00E9FBF7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7C9021CE174A4ABA00E9FBF7 /* sliderMaxMin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderMaxMin@2x.png"; sourceTree = "<group>"; };
+		7C9021D1174A4BE700E9FBF7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7C9021D2174A4BE700E9FBF7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7C9021D4174A4BED00E9FBF7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7C9021D5174A4BED00E9FBF7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7C9021D7174A4C7300E9FBF7 /* SlideToUnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideToUnlockViewController.h; sourceTree = "<group>"; };
+		7C9021D8174A4C7300E9FBF7 /* SlideToUnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideToUnlockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9021C9174A3CFF00E9FBF7 /* QuartzCore.framework in Frameworks */,
 				7C90219B174A377800E9FBF7 /* UIKit.framework in Frameworks */,
 				7C90219D174A377800E9FBF7 /* Foundation.framework in Frameworks */,
 				7C90219F174A377800E9FBF7 /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +91,7 @@
 				7C90219A174A377800E9FBF7 /* UIKit.framework */,
 				7C90219C174A377800E9FBF7 /* Foundation.framework */,
 				7C90219E174A377800E9FBF7 /* CoreGraphics.framework */,
+				7C9021C8174A3CFF00E9FBF7 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,9 +102,12 @@
 				7C9021A9174A377800E9FBF7 /* AppDelegate.h */,
 				7C9021AA174A377800E9FBF7 /* AppDelegate.m */,
 				7C9021B2174A377800E9FBF7 /* MainStoryboard.storyboard */,
-				7C9021B5174A377800E9FBF7 /* ViewController.h */,
-				7C9021B6174A377800E9FBF7 /* ViewController.m */,
+				7C9021D0174A4B9400E9FBF7 /* SlideToUnlock */,
 				7C9021A1174A377800E9FBF7 /* Supporting Files */,
+				7C9021D1174A4BE700E9FBF7 /* FirstViewController.h */,
+				7C9021D2174A4BE700E9FBF7 /* FirstViewController.m */,
+				7C9021D4174A4BED00E9FBF7 /* SecondViewController.h */,
+				7C9021D5174A4BED00E9FBF7 /* SecondViewController.m */,
 			);
 			path = SlideToUnlock;
 			sourceTree = "<group>";
@@ -105,6 +124,18 @@
 				7C9021B0174A377800E9FBF7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C9021D0174A4B9400E9FBF7 /* SlideToUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				7C9021CE174A4ABA00E9FBF7 /* sliderMaxMin@2x.png */,
+				7C9021BE174A39AB00E9FBF7 /* sliderThumb@2x.png */,
+				7C9021BF174A39AB00E9FBF7 /* sliderTrack@2x.png */,
+				7C9021D7174A4C7300E9FBF7 /* SlideToUnlockViewController.h */,
+				7C9021D8174A4C7300E9FBF7 /* SlideToUnlockViewController.m */,
+			);
+			name = SlideToUnlock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +189,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9021CC174A426300E9FBF7 /* sliderThumb@2x.png in Resources */,
+				7C9021CD174A426300E9FBF7 /* sliderTrack@2x.png in Resources */,
 				7C9021A5174A377800E9FBF7 /* InfoPlist.strings in Resources */,
 				7C9021AD174A377800E9FBF7 /* Default.png in Resources */,
 				7C9021AF174A377800E9FBF7 /* Default@2x.png in Resources */,
 				7C9021B1174A377800E9FBF7 /* Default-568h@2x.png in Resources */,
 				7C9021B4174A377800E9FBF7 /* MainStoryboard.storyboard in Resources */,
+				7C9021CF174A4ABA00E9FBF7 /* sliderMaxMin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +209,9 @@
 			files = (
 				7C9021A7174A377800E9FBF7 /* main.m in Sources */,
 				7C9021AB174A377800E9FBF7 /* AppDelegate.m in Sources */,
-				7C9021B7174A377800E9FBF7 /* ViewController.m in Sources */,
+				7C9021D3174A4BE700E9FBF7 /* FirstViewController.m in Sources */,
+				7C9021D6174A4BED00E9FBF7 /* SecondViewController.m in Sources */,
+				7C9021D9174A4C7300E9FBF7 /* SlideToUnlockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +299,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlideToUnlock/SlideToUnlock-Prefix.pch";
 				INFOPLIST_FILE = "SlideToUnlock/SlideToUnlock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +311,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlideToUnlock/SlideToUnlock-Prefix.pch";
 				INFOPLIST_FILE = "SlideToUnlock/SlideToUnlock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
